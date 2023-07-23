@@ -1,0 +1,10 @@
+.counterMain{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+
+}
+.counterMain button {
+    max-width: fit-content;
+}

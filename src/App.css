@@ -1,0 +1,38 @@
+.fetchMain{
+  display: flex;
+  justify-content: center;
+  /* background-color: blue; */
+  align-items: center;
+  margin-top: 2rem;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.result{
+  display: flex;
+  justify-content: center;
+}
+.loading{
+  margin-top: 5rem;
+}
+.card{
+  list-style-type: none;
+  display: flex;
+  border: 1px solid dodgerblue;
+  gap: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+}
+.card div{
+  flex: 1;
+}
+.card p{
+  text-align: start;
+}
+.card img{
+  align-self: center;
+  width: 40px;
+  border-radius: 3px;
+}
